@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\datp6\.nuget\packages\aspnetcore.sasscompiler\1.64.1\build\..\runtimes\win-x64\src\dart.exe" />
+    <None Remove="C:\Users\datp6\.nuget\packages\aspnetcore.sasscompiler\1.64.1\build\..\runtimes\win-x64\src\sass.snapshot" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.SassCompiler" Version="1.64.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Index.cshtml.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imgs\GetStarted\Thumbnails\" />
+    <Folder Include="wwwroot\imgs\Footer\" />
+    <Folder Include="wwwroot\imgs\Home\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="pages\shared\_Footer.cshtml.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="pages\apps\Home.cshtml.scss" />
+  </ItemGroup>
+
+</Project>

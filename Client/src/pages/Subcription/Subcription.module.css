@@ -1,0 +1,72 @@
+@import "../History/History.module.css";
+
+.select {
+    font-weight: 500;
+    background-color: #0d121f;
+    color: rgba(var(--title-color), 1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid rgba(var(--title-color), 0.23);
+}
+.priceCard {
+    border: 1px solid #0a101a;
+    margin-bottom: 30px;
+    background-color: rgba(var(--content-color), 0.1);
+    border-radius: 10px;
+}
+.cardHeader {
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background: #0a101a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.cardBody {
+    padding: 30px;
+}
+.selectbtn {
+    margin: 16px 0 8px !important;
+    width: 60% !important;
+    font-size: 16px !important;
+    padding: 16px !important;
+}
+
+.benefit {
+    font-size: 18px;
+}
+.bottomLink {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 16px;
+    text-decoration: none;
+}
+.bottomLink:hover {
+    text-decoration: underline;
+}
+@media (max-width: 992px) {
+    .selectbtn {
+        padding: 10px !important;
+    }
+    .benefit {
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px) {
+    .benefit {
+        padding-left: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .subcHeader {
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .subcHeader h4 {
+        font-size: 20px;
+    }
+}

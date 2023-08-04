@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megabot - @ViewData["Title"]</title>
+    <link rel="icon" href="~/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/fonts/fontawesome-free-6.4.0-web/css/all.css" />
+    <link rel="stylesheet" href="~/Server.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="/js/util.js" ></script>
+
+</head>
+<body>
+    <main>
+        @RenderBody()
+        <button class="to-top-btn">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+        @*<div id="ptr-effect-circle">
+            <div id="pointer-effect"></div>
+        </div>*@
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js" ></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

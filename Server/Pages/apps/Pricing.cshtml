@@ -1,0 +1,131 @@
+@page
+@{
+    ViewData["title"] = "Pricing";
+    string[] weeklyPrice = 
+    {
+        "Intelligent AI chatbot",
+        "Unlimited answer of question",
+        "Avoid buying coin forever",
+        "No ad in background",
+        "Early access to new features",
+    };
+}
+
+<link rel="stylesheet" href="/css/Services.css">
+<link rel="stylesheet" href="/css/Pricing.css">
+
+<section class="light-text overflow-hidden">
+    <partial name="_Header" />
+    <div>
+        <div class="container">
+            <intro 
+                desc="Select any plan from below pricing plan to proceed further." 
+                title="Pricing Plan"
+                img="/imgs/Pricing/pricing-vector.svg"
+            ></intro>
+            <div class="pricing-body">
+                <h2 class="sv-title mb-5">Unleash limitless potential & versatile features for every need</h2>
+                <div class="pricing__body">
+                    <div class="row align-items-end">
+                        <div class="col-lg-4 col-md-6">
+                            <div>
+                                <div class="pricing__body-top">
+                                    <img src="/imgs/Home/pricing-top.svg" alt="photo">
+                                    <img src="/imgs/Home/weekly.svg" alt="photo">
+                                    <span>Weekly Plan</span>
+                                </div>
+                                <div class="pricing__body-price">
+                                    <div>
+                                        <h2 class="price">$3.99</h2>
+                                        <div class="fs-18">/ only</div>
+                                    </div>
+                                    <img src="/imgs/Home/hanging.svg" alt="hanging" class="price-hanging">
+                                </div>
+                                <div class="pricing__body-body">
+                                    <div>
+                                        <ul class="pricing__body-content">
+                                            @foreach (string item in weeklyPrice)
+                                            {
+                                                <li class="pricing-benefit">
+                                                    <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                    <div class="text-white">@item</div>
+                                                </li>
+                                            }
+                                        </ul>
+                                        <a href="/" class="pricing-link" >Choose Plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div>
+                                <div class="pricing__body-top">
+                                    <img src="/imgs/Home/pricing-center.svg" alt="photo">
+                                    <img class="position-relative" style="z-index: 5;" src="/imgs/Home/monthly.svg" alt="photo">
+                                    <span class="position-relative" style="z-index: 5;">Monthly Plan</span>
+                                </div>
+                                <div class="pricing__body-price price-box-center-price">
+                                    <div>
+                                        <h2 class="price">$3.99</h2>
+                                        <div class="fs-18">/ only</div>
+                                    </div>
+                                    <img src="/imgs/Home/hanging-green.svg" alt="hanging" class="price-hanging">
+                                </div>
+                                <div class="pricing__body-body pricing__body-body-center">
+                                    <div class="price-box-center-body">
+                                        <ul class="pricing__body-content">
+                                            @foreach (string item in weeklyPrice)
+                                            {
+                                                <li class="pricing-benefit">
+                                                    <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                    <div class="text-white">@item</div>
+                                                </li>
+                                            }
+                                            <li class="pricing-benefit">
+                                                <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                <div class="text-white">15+ new category</div>
+                                            </li>
+                                        </ul>
+                                        <a href="/" class="pricing-link color-primary" >Choose Plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div>
+                                <div class="pricing__body-top">
+                                    <img src="/imgs/Home/pricing-top.svg" alt="photo">
+                                    <img src="/imgs/Home/yearly.svg" alt="photo">
+                                    <span>Lifettime Plan</span>
+                                </div>
+                                <div class="pricing__body-price">
+                                    <div>
+                                        <h2 class="price">$3.99</h2>
+                                        <div class="fs-18">/ only</div>
+                                    </div>
+                                    <img src="/imgs/Home/hanging.svg" alt="hanging" class="price-hanging">
+                                </div>
+                                <div class="pricing__body-body">
+                                    <div>
+                                        <ul class="pricing__body-content">
+                                            @foreach (string item in weeklyPrice)
+                                            {
+                                                <li class="pricing-benefit">
+                                                    <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                    <div class="text-white">@item</div>
+                                                </li>
+                                            }
+                                        </ul>
+                                        <a href="/" class="pricing-link" >Choose Plan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_Info" />
+    <partial name="_Footer" />
+</section>

@@ -1,0 +1,24 @@
+.move-btn {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(64, 64, 64, 0.4);
+    border-radius: 4px;
+}
+.page-number {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 16px !important;
+    align-items: center;
+    cursor: pointer;
+}
+.active-page {
+    background: var(--color-primary);
+    color: #000;
+}

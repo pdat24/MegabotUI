@@ -1,0 +1,72 @@
+@import "../History/History.module.css";
+.entries {
+    padding: 20px;
+    border: none !important;
+    border-radius: 8px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    color: rgba(var(--title-color), 0.7);
+    -webkit-backdrop-filter: blur(5.5px);
+    backdrop-filter: blur(5.5px);
+    height: 60px;
+    width: 100%;
+    outline: none !important;
+    background: rgba(var(--content-color), 0.25);
+    position: relative;
+}
+.avatar {
+    position: relative;
+    width: max-content;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid #fff;
+    display: block;
+}
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.avatar span {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.actionBtn {
+    padding: 12px 28px !important;
+    width: max-content !important;
+    font-size: 16px !important;
+}
+@media (max-width: 576px) {
+    .twoInput {
+        flex-direction: column;
+        gap: 12px !important;
+    }
+    .actionBtn {
+        font-size: 14px !important;
+        padding: 12px;
+    }
+    .entries {
+        padding: 12px;
+        padding-left: 24px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,200 @@
+.login-section {
+    background-image: url(/imgs/Login/login-bg.jpg);
+    background-size: cover;
+    padding-left: calc(40px + 120 * (100vw - 991px) / 929);
+    padding-right: calc(40px + 120 * (100vw - 991px) / 929);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    position: relative;
+    padding-top: 52px;
+}
+.login__right {
+    margin-left: auto;
+
+    .login__right-wrapper {
+        padding: calc(30px + 20 * (100vw - 991px) / 929);
+        background: rgba(58, 237, 177, 0.05);
+        border-radius: 4px;
+        border: 1px solid rgba(var(--title-color), 0.1);
+        height: 100%;
+        min-height: calc(100vh - 150px);
+        backdrop-filter: blur(6px);
+    }
+}
+
+.login-wrapper {
+    width: 100%;
+
+    .login__left {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .light-img {
+            left: 0;
+            transition: all 1s ease;
+            transform: translateY(-60px);
+            bottom: calc(60px + 30 * (100vw - 991px) / 929);
+            filter: hue-rotate(45deg);
+            opacity: 0.7;
+        }
+        .foot-img {
+            left: 0;
+            transition: all 1s ease;
+            transform: translateY(60px);
+            bottom: 0;
+        }
+        .head-img {
+            transition: all 0.5s ease;
+            -webkit-animation: flip 3s linear infinite alternate;
+            animation: flip 3s linear infinite alternate;
+            opacity: 0;
+            width: 90%;
+        }
+
+        div {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+            }
+        }
+
+        > img {
+            position: absolute;
+            width: 100%;
+        }
+    }
+
+    .login-entry {
+        background: #253b43;
+        border-radius: 4px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+
+        input {
+            background: unset;
+            border: none;
+            outline: none;
+            color: #fff;
+            flex: 1;
+        }
+    }
+}
+.entry-span {
+    width: 1px;
+    height: 20px;
+    background: #6c757d;
+    margin: 0 14px;
+}
+.form-body {
+    color: #fff;
+}
+.form-nav {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid #12393b;
+    margin-bottom: calc(25px + 5 * (100vw - 320px) / 1600);
+
+    * {
+        flex: 1;
+        padding-bottom: 8px;
+        cursor: pointer;
+        user-select: none;
+    }
+}
+.form-header {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.login-btn {
+    width: 100%;
+    font-size: 18px;
+    outline-width: 1px !important;
+    padding: 10px;
+}
+.forget-pass {
+    text-align: right;
+
+    a {
+        color: var(--color-primary);
+        display: inline-block;
+        margin: 8px 0 16px;
+    }
+}
+.or-option {
+    margin: 16px 0 24px;
+    display: flex;
+    align-items: center;
+
+    .text {
+        font-size: 18px;
+        padding: 0 14px;
+    }
+    div {
+        height: 1px;
+        flex: 1;
+        background: gray;
+    }
+}
+.other-login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+    height: calc(45px + 10 * (100vw - 320px) / 1600);
+    font-size: calc(16px + 2 * (100vw - 320px) / 1600);
+    color: #fff;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.logo {
+    top: calc(40px + 20 * (100vw - 991px) / 929);
+}
+@keyframes flip {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+@media (max-width: 992px) {
+    .login__left {
+        display: none;
+    }
+    .login__right {
+        margin-top: calc(60px + 50 * (100vw - 320px) / 1600);
+    }
+    .login-section {
+        justify-content: center;
+    }
+    .light-img,
+    .foot-img,
+    .head-img {
+        display: none !important;
+    }
+}
+
+.active-form {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+}

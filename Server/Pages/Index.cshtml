@@ -1,0 +1,205 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Get started";
+    var navLinks = new[]
+    {
+        new {text = "Home", href = "/apps/home"},
+        new {text = "Pages", href = "#pages"},
+        new {text = "Feature", href = "#feature"},
+        new {text = "Core feature", href = "#cores"},
+        new {text = "Documentation", href = "javascript:void(0)"},
+    };
+    var AiFeatures = new[]
+    {
+        new {icon = "graph.svg", content = "SEO Specialist", style = ""},
+        new {icon = "copy.svg", content = "Digital marketers", style = "left: -55px;"},
+        new {icon = "seach.svg", content = "Copy writer", style = "left: -50px;"},
+        new {icon = "text.svg", content = "Content writer", style = ""},
+    };
+    var pageThumbnails = new[]
+    {
+        new {name = "Landing Page", url = "/apps/home", img = "home.jpg"},
+        new {name = "Chat UI", url = "/chat", img = "chat.jpg"},
+        new {name = "Services", url = "/apps/services", img = "service.jpg"},
+        new {name = "pricing plan", url = "/apps/pricing", img = "pricing.jpg"},
+        new {name = "Contact us", url = "/apps/contact", img = "contact.jpg"},
+        new {name = "Blog grid", url = "/apps/blog-grid", img = "blog-grid.jpg"},
+        new {name = "blog listing", url = "/apps/blog-list", img = "blog-listing.jpg"},
+        new {name = "blog details", url = "/apps/blog-details", img = "blog-details.jpg"},
+        new {name = "Login", url = "/apps/login", img = "login.jpg"},
+        new {name = "otp & Reset", url = "/apps/otp", img = "otp.jpg"},
+        new {name = "Terms & condtion", url = "/apps/terms", img = "terms.jpg"},
+        new {name = "404", url = "/404", img = "404.jpg"},
+    };
+    string[] features = 
+    { 
+        "HTML", "SCSS", "ASP.Net", "Boostrap 5", "W3 Validate", 
+        "SEO Friendly", "7 Tier Framework", "No Jquery", "Easy Setup", 
+        "Clean Code", "Well Documentation", "Customer Support"
+    };
+}
+
+<div class="text-white" style="background: #0b0f19;">
+    <div class="top px-auto">
+        <nav class="top__nav position-relative pt-4 d-flex align-items-center mb-4">
+            <a href="/" class="position-absolute">
+                <img src="~/imgs/logo.svg" alt="logo" />
+            </a>
+            <div class="w-100">
+                <div class="w-100 nav-full d-flex justify-content-center text-white">
+                    <ul class="d-flex list-unstyled m-0">
+                        @foreach (var i in navLinks)
+                        {
+                            <li class="p-2 ps-4 fs-5">
+                                <a href="@i.href">@i.text</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <div class="justify-content-end position-relative nav-drop">
+                    <i class="fa-solid fa-bars menu-btn"></i>
+                    <ul class="list-unstyled m-0 position-absolute menu-dropdown">
+                        @foreach (var i in navLinks)
+                        {
+                            <li class="p-2 ps-4 dropdown-link">
+                                <a href="@i.href" class="d-block">@i.text</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="top__body">
+            <div class="top__body__left d-flex">
+                <div>
+                    <div >
+                        <div class="top__title d-flex align-items-center">
+                            <span class="px-3">landing template</span>
+                        </div>
+                    </div>
+                    <div class="top__label">AI Chatting Landing Template</div>
+                    <div>
+                        <span class="fs-5 light-text text-writter section-title"></span>
+                        <span class="cursor-text">|</span>
+                    </div>
+                    <div class="start-btn">
+                        <a href="/apps/home" class="common-btn fs-5 d-block">
+                            <span class="me-1">Get Started</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="top-AI-feature">
+                    <ul class="list-unstyled m-0 p-0" style="white-space: nowrap">
+                        @foreach (var i in AiFeatures)
+                        {
+                            <li class="AI-feature" style="@i.style">
+                                <img alt="effect" src="~/imgs/GetStarted/effect.png" class="effect-img" />
+                                <div class="d-flex ps-4">
+                                    <img src="~/imgs/GetStarted/@i.icon" style="width: 24px" alt="icon" />
+                                    <div class="span"></div>
+                                    <span>@i.content</span>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="top__body__right d-flex flex-shrink-0">
+                <div class="position-relative d-flex justify-content-end">
+                    <img alt="robot" src="~/imgs/GetStarted/robot.png" class="robot-img" />
+                    <div class="circle-wrapper">
+                        <img alt="robot" src="~/imgs/GetStarted/round.gif" class="circle-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="px-auto">
+            <div id="pages">
+                <div class="body__header mb-5">
+                    <h2 class="body__title section-label">Pages</h2>
+                    <p class="light-text fs-5 section-title">
+                        Unique HTML Pages with Chatting UI
+                    </p>
+                </div>
+                <div class="body__content">
+                    @foreach (var i in pageThumbnails)
+                    {
+                        <a class="thumbnail p-2 mb-4" href="@i.url">
+                            <div class="img-wrapper">
+                                <img class="thumbnail-img w-100" src="~/imgs/GetStarted/Thumbnails/@i.img" alt="page" />
+                            </div>
+                            <div class="page-desc fs-4">@i.name</div>
+                        </a>
+                    }
+                </div>
+            </div>
+            <div class="body__bottom" id="feature">
+                <div class="bottom__header text-center">
+                    <div class="bottom__title section-label">Theme Features</div>
+                    <div class="light-text fs-5 section-title">Megabot comes up with rtl version & unique animation.</div>
+                </div>
+                <div class="d-flex align-items-center laptop-wrapper">
+                    <div class="d-flex position-relative flex-1 laptop-left">
+                        <div class="text-end me-2">
+                            <div class="laptop-title">1. RTL Available</div>
+                            <div class="light-text fs-5">Design your website LTR or RTL , Megabot supports multi-languages such as arabic , urdu..</div>
+                        </div>
+                        <img src="~/imgs/GetStarted/arrow.svg" alt="arrow" style="left: 100%; top: 28px" class="position-absolute flex-1 laptop-line" />
+                    </div>
+                    <img class="position-relative laptop" alt="laptop" src="~/imgs/GetStarted/laptop.png" />
+                    <div class="d-flex position-relative flex-1 laptop-right">
+                        <img alt="arrow" src="~/imgs/GetStarted/arrow.svg" class="position-absolute laptop-line" style="right: 100%; transform: rotate(180deg);" />
+                        <div class="ms-2">
+                            <div class="laptop-title">2. Amazing Animation</div>
+                            <div class="light-text fs-5">Animations can contribute significantly to the appeal.Megabot has unqiue and creative animation.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="core px-auto" id="cores">
+            <div class="text-start core__header">
+                <div class="body__title justify-content-md-start section-label">Core feature</div>
+                <div class="light-text fs-5 section-title">Get the below all the great functionality in the web.</div>
+            </div>
+            <div class="core__content">
+                <div class="core__list">
+                    @foreach (var name in features)
+                    {
+                        <div class="core__items">
+                            <div class="w-max-content">
+                                <div class="w-max-content core__img-outter">
+                                    <div class="core__img-wrapper">
+                                        <img src="~/imgs/GetStarted/Features/clean-code.svg" style="width: 52px; height: 52px" />
+                                    </div>
+                                </div>
+                                <p class="fs-5 mt-2 text-center core__text">@name</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="w-max-content footer__img-outter">
+            <div class="footer__img-wrapper">
+                <img src="~/imgs/GetStarted/footer-icon.svg" />
+            </div>
+        </div>
+        <p class="fs-3 fw-bold text-center">Get all features for a one time payment of $29</p>
+        <div class="text-center">
+            <a class="common-btn d-inline-block fs-5" href="/">
+                <span class="me-1">Try now </span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </footer>
+</div>
+<div class="cover"></div>
+<link rel="stylesheet" href="~/css/GetStartedResponsive.css" />
+<script src="~/js/GetStartedSite.js"></script>

@@ -1,0 +1,59 @@
+@page "/apps/blog-list"
+@{
+    ViewData["title"] = "Blog List";
+    string[] thumbnails = {"2.jpg", "1.jpg", "3.jpg", "4.jpg", "5.jpg"};
+}
+<link rel="stylesheet" href="/css/BlogList.css">
+
+<section class="blog-list-section light-text">
+    <partial name="_Header" />
+    <div>
+        <div class="container">
+            <intro 
+                desc="Discover the most recent blogs about artificial intelligence here." 
+                title="Latest Blog" 
+                img="/imgs/BlogList/contact-vector.svg"
+            ></intro>
+            <div class="bl-body">
+                @foreach (var t in thumbnails)
+                {
+                    <div class="d-flex row mb-5">
+                        <div class="news-thumbnail col-md-5">
+                            <img src="/imgs/BlogList/@t" alt="photo">
+                            <label>Design</label>
+                        </div>
+                        <div class="news-overview col-md-7">
+                            <h2 class="news-title"><a href="#">ChatGPT: Revolutionizing Conversational AI with GPT-3.5</a></h2>
+                            <p class="news-desc">In the era of rapid technological advancement, artificial intelligence (AI) has made substantial progress in the field of natural language processing.</p>
+                            <div class="author light-text d-flex align-items-center justify-content-start mb-2 fs-6">
+                                <div>
+                                    <img src="/imgs/Home/2.jpg" alt="avatar" class="avatar">
+                                    &nbsp;&nbsp;&nbsp;
+                                    <span>Smith John</span>
+                                </div>
+                                <span class="span"></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <span>14 march 2023</span>
+                                </div>
+                                <span class="span"></span>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-clock"></i>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <span>5 min</span>
+                                </div>
+                            </div>
+                            <arrow-link text="Read more"></arrow-link>
+                        </div>
+                    </div>
+                }
+                <div class="d-flex justify-content-center">
+                    <partial name="_Pagination" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_Info" />
+    <partial name="_Footer" />
+</section>

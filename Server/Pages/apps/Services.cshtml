@@ -1,0 +1,37 @@
+@page
+@{
+    ViewData["title"] = "Services";
+    string[] categories = {"Quick Service", "ASO expert", "Ads & marketing", "Ecommerce", "Personal advisor", "Email generator", "Social media"};
+}
+<link rel="stylesheet" href="/css/Services.css">
+
+<section class="service-section light-text overflow-hidden">
+    <partial name="_Header" />
+    <div>
+        <div class="container">
+            <intro 
+                desc="We offer AI consulting services and solutions that will help you achieve your business objectives faster, while setting you up for sustainable growth." 
+                title="Services" 
+                img="/imgs/Services/service-vector.svg"
+            ></intro>
+            <div class="sv-body">
+                <h2 class="sv-title">A Wide Range of Functionality to Support Any Use Case</h2>
+                <div>
+                    <div class="body-nav">
+                        @foreach (var c in categories)
+                        {
+                            <a href="/" class="sv-category">@c</a>
+                        }
+                    </div>
+                    <div class="row">
+                        @for (int i = 0; i < 8; ++i) {
+                            <partial name="_Services"/>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_Info" />
+    <partial name="_Footer" />
+</section>

@@ -1,0 +1,103 @@
+.grid-body {
+    padding-top: var(--py-auto);
+}
+.news-block img {
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.news-block:hover .thumbnail-pointer {
+    left: 0;
+}
+.news-block:hover .author-name {
+    right: 0;
+}
+.news-block:hover .news-thumbnail img {
+    transform: scale(1.1);
+}
+.news-thumbnail {
+    transition: all 0.5s ease;
+}
+.news-thumbnail label {
+    color: var(--color-primary);
+    font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+    position: absolute;
+    background-color: rgba(15, 164, 127, 0.2);
+    top: calc(14px + 6 * (100vw - 320px) / 1600);
+    right: calc(14px + 6 * (100vw - 320px) / 1600);
+    padding: calc(4px + 2 * (100vw - 320px) / 1600) calc(18px + 2 * (100vw - 320px) / 1600)
+        calc(4px + 2 * (100vw - 320px) / 1600) calc(34px + 6 * (100vw - 320px) / 1600);
+    border-radius: 25px;
+}
+.news-thumbnail label::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-primary);
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.news-block .desc-title {
+    padding-top: 16px;
+    font-size: 22px;
+}
+.news-block .span {
+    height: 20px;
+    width: 1px;
+    background-color: gray;
+    margin: 0 16px;
+}
+.minus {
+    font-size: 8px;
+    margin-right: 4px;
+}
+.news-desc {
+    display: flex;
+    align-items: center;
+}
+.thumbnail-pointer {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    left: -70px;
+    bottom: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.thumbnail-pointer i {
+    transform: rotate(-45deg);
+    color: #fff;
+}
+.author-name {
+    color: var(--color-primary);
+    position: absolute;
+    right: -40%;
+    bottom: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@media (max-width: 1200px) {
+    .news-block .desc-title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .news-block .desc-title {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,1013 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Server.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Server.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\4-7bfbb6af.jpg",
+      "PackagePath": "staticwebassets\\assets\\4-7bfbb6af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\index-c0b9d548.js",
+      "PackagePath": "staticwebassets\\assets\\index-c0b9d548.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\index-f696ef37.css",
+      "PackagePath": "staticwebassets\\assets\\index-f696ef37.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\info-bg-b223e97b.jpg",
+      "PackagePath": "staticwebassets\\assets\\info-bg-b223e97b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\logo-icon-a154d581.svg",
+      "PackagePath": "staticwebassets\\assets\\logo-icon-a154d581.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\monthly-861bee1d.svg",
+      "PackagePath": "staticwebassets\\assets\\monthly-861bee1d.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\no-chat-1a817031.svg",
+      "PackagePath": "staticwebassets\\assets\\no-chat-1a817031.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\weekly-0e5dc101.svg",
+      "PackagePath": "staticwebassets\\assets\\weekly-0e5dc101.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\assets\\yearly-2d05fed7.svg",
+      "PackagePath": "staticwebassets\\assets\\yearly-2d05fed7.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\client\\index.html",
+      "PackagePath": "staticwebassets\\client\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\404.css",
+      "PackagePath": "staticwebassets\\css\\404.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\BlogDetail.css",
+      "PackagePath": "staticwebassets\\css\\BlogDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\BlogGrid.css",
+      "PackagePath": "staticwebassets\\css\\BlogGrid.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\BlogList.css",
+      "PackagePath": "staticwebassets\\css\\BlogList.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\GetStartedResponsive.css",
+      "PackagePath": "staticwebassets\\css\\GetStartedResponsive.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\Pricing.css",
+      "PackagePath": "staticwebassets\\css\\Pricing.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\Services.css",
+      "PackagePath": "staticwebassets\\css\\Services.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\Terms.css",
+      "PackagePath": "staticwebassets\\css\\Terms.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\_Footer.css",
+      "PackagePath": "staticwebassets\\css\\_Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\_Header.css",
+      "PackagePath": "staticwebassets\\css\\_Header.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\_Info.css",
+      "PackagePath": "staticwebassets\\css\\_Info.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\_Pagination.css",
+      "PackagePath": "staticwebassets\\css\\_Pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\all.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\brands.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\regular.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\solid.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\all.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\brands.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\regular.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\solid.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\categories.yml",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\categories.yml"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icon-families.json",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icon-families.json"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icon-families.yml",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icon-families.yml"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icons.json",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icons.json"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icons.yml",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\icons.yml"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\shims.json",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\shims.json"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\shims.yml",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\shims.yml"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\metadata\\sponsors.yml",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\metadata\\sponsors.yml"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\sprites\\brands.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\sprites\\regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\sprites\\solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-free-6.4.0-web\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\404\\4.svg",
+      "PackagePath": "staticwebassets\\imgs\\404\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\404\\404-robot.svg",
+      "PackagePath": "staticwebassets\\imgs\\404\\404-robot.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogDetail\\7.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogDetail\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogDetail\\8.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogDetail\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\6.jpg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\BlogList\\contact-vector.svg",
+      "PackagePath": "staticwebassets\\imgs\\BlogList\\contact-vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Contact\\address.svg",
+      "PackagePath": "staticwebassets\\imgs\\Contact\\address.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Contact\\contact.svg",
+      "PackagePath": "staticwebassets\\imgs\\Contact\\contact.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Contact\\message.svg",
+      "PackagePath": "staticwebassets\\imgs\\Contact\\message.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Contact\\route.svg",
+      "PackagePath": "staticwebassets\\imgs\\Contact\\route.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\fb.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\fb.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\hand.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\hand.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\info-bg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\info-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\insta.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\insta.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\linkedin.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\star.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\tick.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\tick.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\title-effect.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\title-effect.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Footer\\twitter.svg",
+      "PackagePath": "staticwebassets\\imgs\\Footer\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Features\\clean-code.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Features\\clean-code.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Features\\html.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Features\\html.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Features\\sp.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Features\\sp.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\404.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\blog-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\blog-grid.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\blog-grid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\blog-listing.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\blog-listing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\chat.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\contact.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\home.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\login.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\otp.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\otp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\pricing.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\pricing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\service.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\service.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\Thumbnails\\terms.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\Thumbnails\\terms.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\arrow.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\copy.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\effect.png",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\effect.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\footer-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\footer-icon.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\footer-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\graph.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\graph.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\laptop.png",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\laptop.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\robot.png",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\robot.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\round.gif",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\round.gif"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\seach.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\seach.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\GetStarted\\text.svg",
+      "PackagePath": "staticwebassets\\imgs\\GetStarted\\text.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\1.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\1.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\2.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\3.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\arrow.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\body2.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\body2.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\box-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\box-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\code-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\code-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\copy-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\copy-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\copy.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\feature-bg.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\feature-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\feature.gif",
+      "PackagePath": "staticwebassets\\imgs\\Home\\feature.gif"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\finger.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\finger.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\graph-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\graph-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\hand.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\hand.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\hanging-green.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\hanging-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\hanging.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\hanging.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\hashtag-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\hashtag-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\home-bg.gif",
+      "PackagePath": "staticwebassets\\imgs\\Home\\home-bg.gif"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\home-bg.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\home-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\insta-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\insta-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\laptop.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\laptop.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\mail-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\mail-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\marketing-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\marketing-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\message-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\message-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\monthly.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\monthly.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\play-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\play-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\play.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\play.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\pricing-center.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\pricing-center.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\pricing-top.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\pricing-top.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\quote-green.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\quote-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\quote.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\quote.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\search-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\search-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\service-bg.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\service-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\service-title.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\service-title.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\testimonial-bg.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\testimonial-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\text-bold.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\text-bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\title-effect.png",
+      "PackagePath": "staticwebassets\\imgs\\Home\\title-effect.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\weekly.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\weekly.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Home\\yearly.svg",
+      "PackagePath": "staticwebassets\\imgs\\Home\\yearly.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\1.svg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\2.svg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\3.svg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\apple.svg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\google.svg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Login\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Login\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Pricing\\pricing-vector.svg",
+      "PackagePath": "staticwebassets\\imgs\\Pricing\\pricing-vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Services\\service-vector.svg",
+      "PackagePath": "staticwebassets\\imgs\\Services\\service-vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Terms\\blog-details-vector.svg",
+      "PackagePath": "staticwebassets\\imgs\\Terms\\blog-details-vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Terms\\breadcrumb-title.png",
+      "PackagePath": "staticwebassets\\imgs\\Terms\\breadcrumb-title.png"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\Terms\\title-effect2.svg",
+      "PackagePath": "staticwebassets\\imgs\\Terms\\title-effect2.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\imgs\\home-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\imgs\\logo.svg",
+      "PackagePath": "staticwebassets\\imgs\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\GetStartedSite.js",
+      "PackagePath": "staticwebassets\\js\\GetStartedSite.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\_Footer.js",
+      "PackagePath": "staticwebassets\\js\\_Footer.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\_Header.js",
+      "PackagePath": "staticwebassets\\js\\_Header.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\wwwroot\\sass\\Login.scss",
+      "PackagePath": "staticwebassets\\sass\\Login.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Server.props",
+      "PackagePath": "build\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Server.props",
+      "PackagePath": "buildMultiTargeting\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Server.props",
+      "PackagePath": "buildTransitive\\Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

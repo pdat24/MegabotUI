@@ -1,0 +1,106 @@
+.chatgpt-img {
+    position: relative;
+}
+.chatgpt-img-intro {
+    width: 46%;
+    transform: translateY(30%);
+    margin: -128px auto 0;
+    text-align: center;
+    padding: calc(14px + 20 * (100vw - 320px) / 1600);
+    background: rgba(30, 32, 33, 0.1);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 6px;
+}
+.chatgpt-img-intro .title {
+    color: #fff;
+    font-size: 28px;
+    line-height: 42px;
+}
+.chatgpt-img-intro .span {
+    height: 20px;
+    width: 1px;
+    background-color: gray;
+    margin: 0 16px;
+}
+.chatgpt-img-intro .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+@media (max-width: 576px) {
+    .chatgpt-img-intro {
+        transform: translateY(0);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .chatgpt-img-intro .span {
+        display: none;
+    }
+    .chatgpt-img-intro .author {
+        flex-direction: column;
+        gap: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .chatgpt-img-intro {
+        padding: 12px;
+    }
+    .test {
+        position: relative !important;
+    }
+    .title {
+        font-size: 18px !important;
+    }
+}
+@media (max-width: 1200px) {
+    .title {
+        font-size: 20px !important;
+    }
+    .chatgpt-img-intro {
+        width: 100%;
+    }
+}
+.cmt-body {
+    display: flex;
+    font-size: 16px;
+    gap: 16px;
+}
+.cmt-body .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.form-info {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+.form-info input,
+.form-comment {
+    padding: 10px 16px;
+    padding: 10px 16px;
+    background: var(--color-dark1) !important;
+    border-color: gray;
+    color: #fff !important;
+}
+@media (max-width: 576px) {
+    .form-info {
+        flex-direction: column;
+    }
+    .cmt-body .avatar {
+        width: 40px;
+        height: 40px;
+    }
+    .cmt-content {
+        font-size: 14px;
+    }
+    .reply-btn {
+        align-self: flex-end;
+        margin-right: 24px;
+    }
+    .cmt-block {
+        flex-direction: column;
+    }
+}

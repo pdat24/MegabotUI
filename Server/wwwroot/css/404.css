@@ -1,0 +1,30 @@
+.robot {
+    -webkit-animation: error 2s linear;
+    animation: error 2s linear;
+    margin: 0 -30px -40px;
+}
+@media (max-width: 767px) {
+    .robot {
+        width: 50%;
+    }
+    .four {
+        width: 25%;
+    }
+}
+.body-404 {
+    margin: calc(40px + 60 * (100vw - 320px) / 1600) 0;
+}
+@keyframes error {
+    0% {
+        -webkit-transform: translateY(-280px) rotate(5deg);
+        transform: translateY(-280px) rotate(5deg);
+    }
+    50% {
+        -webkit-transform: translateY(-160px) rotate(-35deg);
+        transform: translateY(-160px) rotate(-35deg);
+    }
+    100% {
+        -webkit-transform: translateY(0) rotate(0);
+        transform: translateY(0) rotate(0);
+    }
+}

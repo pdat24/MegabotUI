@@ -1,0 +1,53 @@
+@page "/apps/blog-grid"
+@{
+    ViewData["title"] = "Blog Grid";
+    string[] thumbnails = { "2.jpg", "1.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg" };
+}
+<link rel="stylesheet" href="/css/BlogGrid.css">
+
+<section class="blog-grid-section light-text overflow-hidden">
+    <partial name="_Header" />
+    <div>
+        <div class="container">
+            <intro 
+                desc="Discover the most recent blogs about artificial intelligence here." 
+                title="Latest Blog" 
+                img="/imgs/BlogList/contact-vector.svg"
+            ></intro>
+            <div class="grid-body">
+                <div class="row">
+                    @foreach (var t in thumbnails)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <a href="#" class="news-block mx-2 d-block overflow-hidden">
+                                <div class="news-thumbnail position-relative">
+                                    <img src="/imgs/BlogList/@t" alt="photo">
+                                    <label>Design</label>
+                                    <div class="thumbnail-pointer"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                    <div class="author-name">
+                                        <i class="fa-solid fa-minus minus"></i>
+                                        Smith Warner
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-white desc-title">Empowering Conversations with Advanced AI Capabilities</h3>
+                                    <div class="light-text ps-3 news-desc">
+                                        <i class="fa-solid fa-minus minus"></i>
+                                        <span>14 march 2023</span>
+                                        <div class="span"></div>
+                                        <span>5 min to read</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+                <div class="d-flex justify-content-center">
+                    <partial name="_Pagination" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_Info" />
+    <partial name="_Footer" />
+</section>

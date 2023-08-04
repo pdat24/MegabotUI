@@ -1,0 +1,38 @@
+﻿@{
+    string[] intro = 
+    { 
+        "15+ category to explore", 
+        "Quick advisor to help you", 
+        "Get details on any topic", 
+        "Free images for lifetime" 
+    };
+}
+<link rel="stylesheet" href="~/css/_Info.css" />
+
+<section class="info-section">
+    <div class="container position-relative">
+        <div class="text-center wrapper">
+            <h2 class="info__heading">
+                <span>READY TO <span class="text-white">MOVE</span> AHEAD?</span>
+                <span class="d-flex justify-content-center">
+                    <img class="d-block" alt="effect" src="~/imgs/Footer/title-effect.svg" />
+
+                </span>
+            </h2>
+            <p class="light-text info__desc">With the help of our ground-breaking AI tool, unlock the potential of cutting-edge AI technology and increase your productivity to new heights. Embrace the future today and let our AI tool redefine what's possible for you.</p>
+            <div class="d-flex text-white fs-5 info__intro">
+                @foreach (string i in intro)
+                {
+                    <tick>@i</tick>
+                }
+            </div>
+            <div class="d-flex justify-content-center">
+                <arrow-link href="/apps/contact" text="Contact us now"></arrow-link>
+            </div>
+        </div>
+        <div>
+            <img alt="hand" src="~/imgs/Footer/hand.svg" class="position-absolute info__left-hand" />
+            <img alt="hand" src="~/imgs/Footer/hand.svg" class="position-absolute info__right-hand" />
+        </div>
+    </div>
+</section>

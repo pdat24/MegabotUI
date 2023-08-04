@@ -1,0 +1,24 @@
+@page
+@{
+    ViewData["title"] = "Not Found";
+}
+<link rel="stylesheet" href="/css/404.css">
+<div>
+    <partial name="_Header" />
+    <div class="body-404">
+        <div class="container">
+            <div class="mx-3">
+                <div class="d-flex justify-content-center">
+                    <img class="four" src="/imgs/404/4.svg" alt="photo">
+                    <img class="robot" src="/imgs/404/404-robot.svg" alt="photo">
+                    <img class="four" src="/imgs/404/4.svg" alt="photo">
+                </div>
+                <div class="text-center mt-4">
+                    <h2 class="color-primary ">Oops page not found</h2>
+                    <p class="light-text">This page doesn’t exist or was removed ! We suggest you back to home</p>
+                    <a href="/apps/home" class="btn-login mt-2 d-inline-block">Back to home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

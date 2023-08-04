@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "4s8X2lUKguoVA4wVVfQ6hVtZV+hnul51Hc70/szKKVBSPyEWJ05JJaj9W7vqjWnHCPOClJoPMFW3uWvwonyr/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\datp6\\OneDrive\\Documents\\Code\\Fullstack\\Megabot\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\datp6\\.nuget\\packages\\aspnetcore.sasscompiler\\1.64.1\\aspnetcore.sasscompiler.1.64.1.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.0\\microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.0\\microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.0\\microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.0\\microsoft.extensions.hosting.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "C:\\Users\\datp6\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

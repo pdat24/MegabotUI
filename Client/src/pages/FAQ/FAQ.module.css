@@ -1,0 +1,32 @@
+@import "../History/History.module.css";
+.FAQitem {
+    background-color: rgba(245, 245, 245, 0.04);
+    border: 1px solid rgba(var(--title-color), 0.1);
+    color: #fff;
+}
+.FAQBtn {
+    background-color: rgba(245, 245, 245, 0.04) !important;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    color: #fff !important;
+    border: none !important;
+    font-size: 18px;
+    padding: calc(15px + 5 * (100vw - 320px) / 1600) calc(15px + 10 * (100vw - 320px) / 1600) !important;
+    line-height: 1.4 !important;
+    justify-content: space-between;
+}
+.FAQBtn::after {
+    content: "";
+    display: none;
+}
+.expandIcon {
+    transition: all 0.2s ease-in-out !important;
+}
+@media (max-width: 576px) {
+    .FAQBtn {
+        font-size: 16px !important;
+    }
+    .text {
+        font-size: 14px;
+    }
+}

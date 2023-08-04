@@ -1,0 +1,113 @@
+.bodyWrapper {
+    padding-top: calc(80px + 100 * (100vw - 320px) / 1600);
+    background-color: #141d2a;
+    padding-bottom: 48px;
+}
+.wrapper {
+    margin-left: 100px;
+}
+.content {
+    background-color: rgba(var(--content-color), 0.1);
+    border-radius: 10px;
+}
+.searchEntry {
+    color: #fff;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    flex: 1;
+    font-size: 16px;
+}
+.span {
+    width: 1px;
+    height: 20px;
+    background: gray;
+    margin: 0 8px 0 12px;
+}
+.searchBar {
+    background: rgba(var(--title-color), 0.1);
+    border: none;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 6px;
+    padding: 13px 15px 13px 50px;
+    color: rgba(var(--title-color), 1);
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+}
+.searchBar input {
+    background: unset;
+}
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid rgba(var(--title-color), 0.15);
+}
+.listItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: calc(6px + 10 * (100vw - 320px) / 1600);
+    border-bottom: 1px dashed rgba(var(--title-color), 0.15);
+    padding: 16px 0;
+}
+.historyType::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background: var(--color-primary);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    border-radius: 100%;
+}
+.qText {
+    font-size: 18px;
+}
+@media (max-width: 1200px) {
+    .qText {
+        font-size: 16px;
+    }
+    .time {
+        font-size: 14px;
+        padding-left: 12px;
+    }
+}
+@media (max-width: 767px) {
+    .searchBar,
+    .historyType,
+    .span {
+        display: none;
+    }
+    .container {
+        max-width: 100%;
+        margin-top: 48px;
+    }
+    .wrapper {
+        margin: 0;
+    }
+}
+@media (max-width: 576px) {
+    .listItem {
+        flex-direction: column;
+        align-items: start;
+    }
+    .time {
+        align-self: flex-end;
+    }
+    .tableHeader h3 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,111 @@
+@page
+@{
+    ViewData["title"] = "Contact";
+}
+<link rel="stylesheet" href="/css/Contact.css">
+
+<section class="contact-section light-text overflow-hidden">
+    <partial name="_Header" />
+    <div>
+        <div class="container">
+            <intro 
+                desc="Email us with any questions, we would be happy to answer your question." 
+                title="Contact us" 
+                img="/imgs/BlogList/contact-vector.svg"
+            ></intro>
+            <div class="contact-body">
+                <div class="contact-body__top">
+                    <div class="items">
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="/imgs/Contact/message.svg" alt="photo">
+                            </div>
+                            <div class="item-content">
+                                <h5 class="color-primary">Mail id</h5>
+                                <p class="light-text mb-0">contact@megabot.com</p>
+                                <p class="light-text">inquiry@megabot.com</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="/imgs/Contact/contact.svg" alt="photo">
+                            </div>
+                            <div class="item-content">
+                                <h5 class="color-primary">Contact no</h5>
+                                <p class="light-text mb-0">(406) 555-0120</p>
+                                <p class="light-text">(684) 555-0102</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="/imgs/Contact/route.svg" alt="photo">
+                            </div>
+                            <div class="item-content">
+                                <h5 class="color-primary">Address 1</h5>
+                                <p class="light-text mb-0">2118 Thornridge Cir.</p>
+                                <p class="light-text">Syracuse, Connecticut 35624</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="/imgs/Contact/address.svg" alt="photo">
+                            </div>
+                            <div class="item-content">
+                                <h5 class="color-primary">Address 2</h5>
+                                <p class="light-text mb-0">2972 Westheimer Rd. Santa </p>
+                                <p class="light-text">Ana, Illinois 85486 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-body__form row mb-3">
+                    <form class="col-lg-7" method="post">
+                        <div class="mb-4 name-and-email">
+                            <label class="d-block flex-1" for="name">
+                                <span class="text-white fs-18 mb-1 d-block">Name</span>
+                                <input id="name" class="entry form-control form-control-lg" type="text">
+                            </label>
+                            <label class="d-block flex-1" for="email">
+                                <span class="text-white fs-18 mb-1 d-block">Email</span>
+                                <input id="email" class="entry form-control form-control-lg" type="text">
+                            </label>
+                        </div>
+                        <label class="d-block mb-4" for="phone">
+                            <span class="text-white fs-18 mb-1 d-block">Phone number</span>
+                            <input class="entry form-control form-control-lg" type="tel" name="phone" id="phone">
+                        </label>
+                        <label class="d-block mb-4" for="address">
+                            <span class="text-white fs-18 mb-1 d-block">Address message</span>
+                            <textarea class="entry form-control" id="address" rows="3"></textarea>
+                        </label>
+                        <button type="submit" class="common-btn">Send Message</button>
+                    </form>
+                    <div class="col-lg-5 map-wrapper">
+                        <div id="gg-map" class="w-100 h-100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_Info" />
+    <partial name="_Footer" />
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADoH2ECoj8DA14a4zogmB7EmJD3HxtzNg&callback=initMap&libraries=&v=weekly" async></script>
+<script>
+    function initMap() {
+
+        // The location of Geeksforgeeks office
+        const ha_noi = {
+            lat: 21.02838,
+            lng: 105.85373
+        };
+
+        const map = new google.maps.Map(
+                document.getElementById("gg-map"), {
+
+            // Set the zoom of the map
+            zoom: 10,
+            center: ha_noi,
+        });
+    }
+</script>

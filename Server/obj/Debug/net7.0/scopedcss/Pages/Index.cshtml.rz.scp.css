@@ -1,0 +1,275 @@
+.px-auto[b-dy2madjs6u] {
+  padding: 0 calc(15px + 85 * (100vw - 320px) / 1600);
+}
+
+.top[b-dy2madjs6u] {
+  background-image: url("/imgs/home-bg.jpg");
+  background-size: cover;
+}
+.top .top__body[b-dy2madjs6u] {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.top .top__body .top__label[b-dy2madjs6u] {
+  font-size: 56px;
+  font-family: play;
+  font-weight: 700;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  opacity: 0;
+}
+.top .top__body .top__title[b-dy2madjs6u] {
+  font-family: "Qwitcher Grypen";
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--color-primary);
+  transform: translateY(50px);
+  transition: all 1s ease;
+  opacity: 0;
+}
+.top .top__body .top__title[b-dy2madjs6u]::before, .top .top__body .top__title[b-dy2madjs6u]::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  width: 50px;
+  height: 1px;
+}
+
+.body[b-dy2madjs6u] {
+  background: linear-gradient(181.21deg, rgba(255, 255, 255, 0.077) 1.03%, rgba(255, 255, 255, 0) 99.01%);
+  padding-top: 85px;
+}
+.body .body__title[b-dy2madjs6u] {
+  color: var(--color-primary);
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 600;
+}
+.body .body__title[b-dy2madjs6u]::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  width: 50px;
+}
+.body .body__content[b-dy2madjs6u] {
+  display: flex;
+  flex-wrap: wrap;
+}
+.body .body__content .thumbnail[b-dy2madjs6u] {
+  display: inline-block;
+  width: 33.3333333333%;
+}
+.body .body__content .thumbnail .img-wrapper[b-dy2madjs6u] {
+  transition: all 0.5s ease;
+  border: 20px solid #242831;
+  display: inline-block;
+}
+.body .body__content .thumbnail .page-desc[b-dy2madjs6u] {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+.body .body__content .thumbnail .page-desc[b-dy2madjs6u]::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  width: 50px;
+  margin-bottom: 4px;
+  transition: all 0.5s ease;
+  background-color: #fff;
+}
+.body .body__content .thumbnail:hover[b-dy2madjs6u] {
+  color: var(--color-primary);
+  border-color: #1d3c3c;
+}
+.body .body__content .thumbnail:hover .img-wrapper[b-dy2madjs6u] {
+  border-color: #1c3937;
+}
+.body .body__content .thumbnail:hover .page-desc[b-dy2madjs6u]::before {
+  background-color: var(--color-primary);
+}
+.body .body__bottom[b-dy2madjs6u] {
+  padding: 85px 0;
+}
+
+.bottom__header[b-dy2madjs6u], .core .core__header[b-dy2madjs6u] {
+  transition: all 0.5s ease;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.bottom__title[b-dy2madjs6u] {
+  color: var(--color-primary);
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 600;
+  justify-content: center;
+}
+.bottom__title[b-dy2madjs6u]::before, .bottom__title[b-dy2madjs6u]::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+}
+
+.core[b-dy2madjs6u] {
+  background: rgba(255, 255, 255, 0.04);
+  padding-top: 85px;
+}
+.core .core__content[b-dy2madjs6u] {
+  padding-top: 48px;
+  padding-bottom: 85px;
+}
+.core .core__list[b-dy2madjs6u] {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  row-gap: 24px;
+}
+.core .core__items[b-dy2madjs6u] {
+  display: flex;
+  justify-content: center;
+  margin: 0 24px;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.core .core__img-outter[b-dy2madjs6u] {
+  border: 14px solid #000;
+  border-radius: 50%;
+  margin: auto;
+}
+.core .core__items:hover .core__img-wrapper[b-dy2madjs6u] {
+  background: #242831;
+  border-style: solid;
+}
+.core .core__items:hover .core__text[b-dy2madjs6u] {
+  color: var(--color-primary);
+}
+.core .core__text[b-dy2madjs6u] {
+  transition: all 0.5s ease;
+}
+.core .core__img-wrapper[b-dy2madjs6u] {
+  border: 1px dashed var(--color-primary);
+  padding: 24px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.footer[b-dy2madjs6u] {
+  background-image: url("/imgs/GetStarted/footer-bg.jpg");
+  background-size: cover;
+  padding: 48px 0;
+  border-top: 2px solid var(--color-primary);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.footer .footer__img-outter[b-dy2madjs6u] {
+  border: 10px solid #000;
+  border-radius: 50%;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+.footer .footer__img-wrapper[b-dy2madjs6u] {
+  transition: all 0.5s ease;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.start-btn[b-dy2madjs6u] {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.span[b-dy2madjs6u] {
+  height: 20px;
+  width: 1px;
+  background: #666;
+  margin: 0 12px;
+}
+
+.circle-wrapper[b-dy2madjs6u] {
+  position: absolute;
+  top: -100px;
+  border-radius: 50%;
+  border: 2px dashed var(--color-primary);
+}
+
+.AI-feature[b-dy2madjs6u] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.laptop-title[b-dy2madjs6u] {
+  color: var(--color-primary);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.laptop-wrapper[b-dy2madjs6u] {
+  gap: 60px;
+  margin-top: 48px;
+}
+.laptop-wrapper .laptop-left[b-dy2madjs6u] {
+  transform: translateX(100px);
+  transition: all 1s ease;
+  transition-delay: 1s;
+  opacity: 0;
+}
+.laptop-wrapper .laptop-right[b-dy2madjs6u] {
+  transform: translateX(-100px);
+  transition: all 1s ease;
+  transition-delay: 1.5s;
+  opacity: 0;
+}
+
+.cursor-text[b-dy2madjs6u] {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  animation: cursorTextEffect-b-dy2madjs6u 1s ease infinite;
+}
+
+@keyframes cursorTextEffect-b-dy2madjs6u {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.top__body__left[b-dy2madjs6u] {
+  padding-bottom: 48px;
+}
+
+.nav-drop[b-dy2madjs6u] {
+  display: none;
+}
+
+.nav-full[b-dy2madjs6u] {
+  display: flex;
+}
+
+/*# sourceMappingURL=Index.cshtml.css.map */

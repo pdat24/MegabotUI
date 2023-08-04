@@ -1,0 +1,36 @@
+@page 
+@{
+    ViewData["title"] = "Reset password";
+}
+<link rel="stylesheet" href="/css/Login.css">
+
+<section class="login-section">
+    <img src="/imgs/logo.svg" alt="logo" class="position-absolute logo">
+    <div class="login-wrapper row">
+        <div class="login__left col-lg-7">
+            <img src="/imgs/Login/1.svg" alt="photo" class="foot-img">
+            <img src="/imgs/Login/2.svg" alt="photo" class="light-img">
+            <div>
+                <img src="/imgs/Login/3.svg" alt="photo" class="head-img">
+            </div>
+        </div>
+        <div class="login__right col-lg-5 col-xxl-4">
+            <div class="login__right-wrapper flex-column d-flex">
+                <h2 class="form-header color-primary mb-3">Reset password</h2>
+                <p class="text-center light-text">Enter the OTP send to ka****@@gmail.com</p>
+                <div class="form-wrapper h-100">
+                    <div class="form-body flex-column h-100 d-flex justify-content-between">
+                        <label for="email" class="w-100">
+                            <span class="fs-18">OTP</span>
+                            <div class="login-entry mt-2">
+                                <input type="email" name="email" id="email" placeholder="Enter 6 digit code">
+                            </div>
+                        </label>
+                        <button class="common-btn login-btn mb-3">Sunmit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/js/Login.js"></script>

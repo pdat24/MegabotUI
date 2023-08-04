@@ -1,0 +1,62 @@
+﻿@{
+    string[] links = { "Home", "Service", "Pricing", "Contact us" };
+    string[] services = { "Generate", "Find Image","Email writer","Social media" };
+    string[] companys = { "Login", "Blog listing", "Blog Grid", "Blog Details" };
+    async Task renderList(string title, string[] items)
+    {
+        <div class="ft-group">
+            <div class="ft-group__toggle">
+                <div class="d-flex align-items-center ft-group__label">
+                    <img src="~/imgs/Footer/star.svg" />
+                    <div class="labels">@title</div>
+                </div>
+                <i class="fa-solid fa-chevron-down ft-group__down"></i>
+            </div>
+            <ul class="list-unstyled mb-0 fs-5 mt-5 ps-5 ft-lst ft-group__items">
+                @foreach (var i in items)
+                {
+                    <li class="mt-4">
+                        <a class="d-block" href="/">@i</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}
+
+<link rel="stylesheet" href="~/css/_Footer.css"/>
+
+<footer class="light-text">
+    <div class="ft-wrapper container mx-auto">
+        <div class="ft-body">
+            <div class="ft-body__left">
+                <img src="~/imgs/logo.svg" alt="photo" />
+                <div class="light-text fs-5 my-3">SUBSCRIBE TO OUR NEWSLETTER</div>
+                <div class="rounded-1 p-2 entry-wrapper d-flex">
+                    <input type="email" placeholder="Enter your mail" class="entry flex-grow-1" />
+                    <button class="common-btn border-0">Subscribe</button>
+                </div>
+                <div class="d-flex gap-4">
+                    <img src="~/imgs/Footer/fb.svg" alt="photo" />
+                    <img src="~/imgs/Footer/linkedin.svg" alt="photo" />
+                    <img src="~/imgs/Footer/insta.svg" alt="photo" />
+                    <img src="~/imgs/Footer/twitter.svg" alt="photo" />
+                </div>
+            </div>
+            @{
+                renderList("QUICK LINK", links).GetAwaiter();
+                renderList("OUR SERVICE", services).GetAwaiter();
+                renderList("OUR COMPANY", companys).GetAwaiter();
+            }
+        </div>
+        <div class="d-flex justify-content-between py-4 mt-5 bottom align-items-center">
+            <div>@@2023 All the Copyright Reserved.</div>
+            <div class="d-flex align-items-center">
+                <div>Privacy Policy</div>
+                <div class="mx-2 fs-5">|</div>
+                <div>Terms & Condition</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="~/js/_Footer.js"></script>

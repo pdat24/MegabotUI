@@ -1,0 +1,52 @@
+.sv-body {
+    padding: var(--py-auto) 0;
+}
+.sv-title {
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 28px;
+}
+.sv-category {
+    padding: calc(10px + 2 * (100vw - 320px) / 1600) calc(15px + 10 * (100vw - 320px) / 1600);
+    background: rgba(var(--title-color), 0.08);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    border-radius: 6px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: inline-block;
+    color: #fff !important;
+    white-space: nowrap;
+}
+.sv-category:hover {
+    background-color: var(--color-primary);
+}
+.body-nav {
+    width: 85%;
+    justify-content: space-start;
+    gap: 12px;
+    display: flex;
+    margin: 56px auto 12px;
+    flex-wrap: wrap;
+}
+.body-nav > a:first-child {
+    background-color: var(--color-primary);
+}
+@media (max-width: 1200px) {
+    .sv-title {
+        width: 80%;
+    }
+}
+@media (max-width: 992) {
+    .sv-title {
+        width: 100%;
+        font-size: 24px;
+    }
+}
+@media (max-width: 576px) {
+    .sv-title {
+        font-size: 20px;
+    }
+}

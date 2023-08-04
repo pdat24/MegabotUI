@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Server
+build_property.RootNamespace = Server
+build_property.ProjectDir = C:\Users\datp6\OneDrive\Documents\Code\Fullstack\Megabot\Server\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\datp6\OneDrive\Documents\Code\Fullstack\Megabot\Server
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xCbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/BlogGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xCbG9nR3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/BlogList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xCbG9nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/OTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xPVFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xQcmljaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Terms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xUZXJtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/apps/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXBwc1xIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-rhcm34ug7n
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dy2madjs6u
+
+[C:/Users/datp6/OneDrive/Documents/Code/Fullstack/Megabot/Server/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g8scmi8zyl

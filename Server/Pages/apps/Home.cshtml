@@ -1,0 +1,428 @@
+﻿@page
+@model Server.Pages.apps.HomeModel
+@{
+    ViewData["title"] = "Home";
+    var services = new[] {
+        new {name = "Copy Writer", desc = "Unleash the power of AI to effortlessly compelling content that captivates and converts.", icon = "copy-bold.svg"},
+        new {name = "Digital marketers", desc = "Accelerate your marketing and take over the digital landscape", icon = "graph-bold.svg"},
+        new {name = "SEO Sepcialist", desc = "Generate more engaging content to skyrocket your website’s visibility", icon = "search-bold.svg"},
+        new {name = "Content marker", desc = "Reinvent your content marketing and captivate your audience like never before.", icon = "text-bold.svg"},
+    };
+    string[] weeklyPrice = 
+    {
+        "Intelligent AI chatbot",
+        "Unlimited answer of question",
+        "Avoid buying coin forever",
+        "No ad in background",
+        "Early access to new features",
+    };
+    string[] FAQs = 
+    {
+        "Is there a limit to the amount of stuff I can create?",
+        "What languages do you support?",
+        "Is there a limit to the amount of stuff that I can create?",
+        "How long will it take to write an article with AI?",
+        "How can I boost traffic with Megabot?",
+        "Is the content unique?"
+    };
+    var users = new[] {
+        new { avatar = "1.jpg", comment = "I was skeptical about using AI for content generation, but after trying out the AI Generation Tool, I was pleasantly surprised.", active = false },
+        new { avatar = "2.jpg", comment = "The quality of the generated text is impressive, and it saves me so much time and effort. Highly recommended!", active = true },
+        new { avatar = "3.jpg", comment = "As a marketer, I'm always looking for ways to streamline my work. The AI Tool has been a fantastic addition to my toolkit. It helps me come up with creative ideas!", active = false },
+    };
+}
+<section class="home-section">
+    <div class="overflow-hidden">
+        <div class="home-top-wrapper">
+            <partial name="_Header" />
+            <div>
+                <img class="decorator1" alt="1" src="/imgs/Home/1.png" />
+                <img class="decorator2" alt="2" src="/imgs/Home/2.svg" />
+                <div class="position-absolute w-100 d-flex justify-content-center gif-wrapper">
+                    <img alt="gif" src="/imgs/Home/home-bg.gif" class="w-50" />
+                </div>
+                <div class="home-top container">
+                    <div class="home-top__top">
+                        <h1 class="home-title text-white text-center fw-bold">
+                            USE MEGABOT TO 
+                            <span class="top-word-effect">
+                                <img alt="photo" src="/imgs/Home/title-effect.png" class="round-word-img" />
+                                <span>SIMPLIFY</span>
+                            </span> 
+                            YOUR LIFE
+                        </h1>
+                        <p class="home-desc light-text">Megabot is a robust AI tool that uses artificial intelligence algorithms to generate various kinds of content. The tool was developed to support users with effortlessly generating high-quality content, saving both energy and time while maintaining an uninterrupted level of creativity and accuracy.</p>
+                        <div class="free-trail-wrapper">
+                            <div class="free-trail">
+                                <img alt="play" src="/imgs/Home/play.svg" style="width: 28px;" />
+                                <span class="ms-2">Start free trial</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="justify-content-center d-flex mt-48 px-3">
+                            <div>
+                                <img class="left-hand position-absolute" alt="photo" src="/imgs/Home/hand.png" />
+                                <img alt="photo" src="/imgs/Home/finger.png" class="left-finger position-absolute" />
+                                <img class="w-100" alt="laptop" src="/imgs/Home/laptop.png" />
+                                <img alt="photo" src="/imgs/Home/finger.png" class="right-finger position-absolute" />
+                                <img class="right-hand position-absolute" alt="photo" src="/imgs/Home/hand.png" />
+                            </div>
+                        </div>
+                        <div class="home-top__bottom">
+                            <ul class="p-0 d-flex home-AI-features">
+                                <li>Ask anything</li>
+                                <li>Generate image</li>
+                                <li>Translate anything</li>
+                            </ul>
+                            <div class="d-flex stars-wrapper">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="mt-2 text-center text-white" style="text-wrap: balance;">A technique to write all of your material 10 times more quickly.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-body">
+            <div class="home-body__wrapper container">
+                <div class="d-flex align-items-center home-body-service">
+                    <div class="flex-1 d-flex flex-wrap">
+                        @foreach (var item in services)
+                        {
+                            <div class="body-1__feature-wrapper">
+                                <div class="body-1__feature">
+                                    <div class="feature-icon">
+                                        <img src="/imgs/Home/@item.icon" alt="photo" />
+                                    </div>
+                                    <div class="mb-3 mt-4 d-flex align-items-center gap-2" style="white-space: nowrap;">
+                                        <img src="/imgs/Home/service-title.svg" alt="photo">
+                                        <span class="fs-5 text-white">@item.name</span>
+                                    </div>
+                                    <div class="light-text">@item.desc</div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="flex-1">
+                        <div class="service-right">
+                            <div class="home-body__1-header home-title-effect">
+                                <h2 class="home-body__title">For All Kind of Creators</h2>
+                                <p class="home-body__desc">In the digital world, our AI Writer supports a variety of artists</p>
+                            </div>
+                            <div class="light-text home-body__p">Introducing a revolutionary AI partner for creators across the globe—a groundbreaking tool designed to transform the way we bring our creative ideas to life. Unleash your artistic abilities as you explore a world of limitless possibilities. Say goodbye to obstacles and let this remarkable AI companion pave the way to a new era of boundless creation.</div>
+                            <arrow-link 
+                                text-class="fs-18"
+                                href="/" 
+                                text="View All"
+                            ></arrow-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="about-block-outer">
+                    <div class="position-relative">
+                        <div class="body-bg-effect-1"></div>
+                        <div class="container about">
+                            <div class="row position-relative m-0 align-items-center">
+                                <div class="col-lg-6 about-1-text-block">
+                                    <div>
+                                        <div class="about-number">01.</div>
+                                        <h2 class="home-title-effect about-1-title text-white">AI's Innovative Potential for One-Click Content Generation.</h2>
+                                        <div class="light-text">Crafting influential content requires a deep understanding of your target audience. Pinpoint your ideal demographic and familiarise yourself with their needs, passions, and sources of concern.</div>
+                                        <div class="text-white about-tick-block">
+                                            <tick>Attract your audience with captivating facts in your commercials</tick>
+                                            <tick>Let’s engage with the customers effectively</tick>
+                                            <tick>Brighten up your content with appealing graphics: pictures, clips, and graphs that will fascinate your users!</tick>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img alt="robot" src="/imgs/Home/1.svg" class="w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-block-outer">
+                    <div class="position-relative">
+                        <div class="body-bg-effect-2"></div>
+                        <div class="container about">
+                            <div class="row g-md-5 w-100 align-items-center">
+                                <div class="col-lg-6">
+                                    <img alt="robot" src="/imgs/Home/body2.svg" class="w-100" />
+                                </div>
+                                <div class="col-lg-6 about-2-text-block">
+                                    <div>
+                                        <div class="about-number">02.</div>
+                                        <h2 class="home-title-effect about-1-title text-white">The key resource for First Page Content Optimisation</h2>
+                                        <div class="light-text">"Unlock Content Magic: Tailor Your Message to Win Hearts! Discover Your Ideal Audience, Understand Their Desires, Tastes, and Challenges!"</div>
+                                        <div class="text-white about-tick-block">
+                                            <tick>Gain valuable insights into their expectations, preferences, and aspirations.</tick>
+                                            <tick>Create captivating content that speaks directly to their hearts and minds.</tick>
+                                            <tick>Identify the precise pain points and challenges your audience faces, and provide solutions through your content.</tick>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-block-outer">
+                    <div class="position-relative">
+                        <div class="body-bg-effect-1"></div>
+                        <div class="container about">
+                            <div class="row position-relative m-0 align-items-centerA technique to write all of your material 10 times more quickly.">
+                                <div class="col-lg-6 about-1-text-block">
+                                    <div>
+                                        <div class="about-number">03.</div>
+                                        <h2 class="home-title-effect about-1-title text-white">MegaAI: Your Companion for Hashtags, Captions, and More!</h2>
+                                        <div class="light-text">Experience the power of Megabot AI and revolutionise your social media presence. Say goodbye to writer's block and hello to compelling hashtags, captivating captions, and endless content possibilities.</div>
+                                        <div class="text-white about-tick-block">
+                                            <tick>Curate endless content possibilities that make your website shine.</tick>
+                                            <tick>Generates compelling hashtags that skyrocket your reach</tick>
+                                            <tick>Unlock a world of unlimited content ideas that keep your followers hooked.</tick>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img alt="robot" src="/imgs/Home/3.svg" class="w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="light-text body-feature position-relative">
+                <img src="/imgs/Home/feature.gif" class="feature-bg-gif" alt="photo">
+                <img src="/imgs/Home/feature-bg.png" class="feature-bg-png" alt="photo">
+                <div class="container feature-container">
+                    <div class="feature-title">Unleash limitless potential & versatile features for every need</div>
+                    <div class="row">
+                        @for (int i = 0; i < 8; ++i) {
+                            <partial name="_Services"/>
+                        }
+                    </div>
+                </div>
+                <div class="feature-pagination">
+                    <div>
+                        <img src="/favicon.png" alt="photo">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="pricing-section">
+                <div class="container">
+                    <div class="pricing__header">
+                        <div class="text-white">Unleash limitless potential & versatile features for every need</div>
+                        <div class="light-text pricing__header-desc">
+                            <div class="pricing__header-span"></div>
+                            <div>
+                                From robust tools that inspire creativity to innovative ideas that simplify your everyday tasks, our tool knows no bounds. Utilise the potential and elevate your user experience to new heights with our cutting-edge technology, adapted just for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing__body">
+                        <div class="row align-items-end">
+                            <div class="col-lg-4 col-md-6">
+                                <div>
+                                    <div class="pricing__body-top">
+                                        <img src="/imgs/Home/pricing-top.svg" alt="photo">
+                                        <img src="/imgs/Home/weekly.svg" alt="photo">
+                                        <span>Weekly Plan</span>
+                                    </div>
+                                    <div class="pricing__body-price">
+                                        <div>
+                                            <h2 class="price">$3.99</h2>
+                                            <div class="fs-18">/ only</div>
+                                        </div>
+                                        <img src="/imgs/Home/hanging.svg" alt="hanging" class="price-hanging">
+                                    </div>
+                                    <div class="pricing__body-body">
+                                        <div>
+                                            <ul class="pricing__body-content">
+                                                @foreach (string item in weeklyPrice)
+                                                {
+                                                    <li class="pricing-benefit">
+                                                        <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                        <div class="text-white">@item</div>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <a href="/" class="pricing-link" >Choose Plan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div>
+                                    <div class="pricing__body-top">
+                                        <img src="/imgs/Home/pricing-center.svg" alt="photo">
+                                        <img src="/imgs/Home/monthly.svg" alt="photo">
+                                        <span>Monthly Plan</span>
+                                    </div>
+                                    <div class="pricing__body-price price-box-center-price">
+                                        <div>
+                                            <h2 class="price">$3.99</h2>
+                                            <div class="fs-18">/ only</div>
+                                        </div>
+                                        <img src="/imgs/Home/hanging-green.svg" alt="hanging" class="price-hanging">
+                                    </div>
+                                    <div class="pricing__body-body pricing__body-body-center">
+                                        <div class="price-box-center-body">
+                                            <ul class="pricing__body-content">
+                                                @foreach (string item in weeklyPrice)
+                                                {
+                                                    <li class="pricing-benefit">
+                                                        <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                        <div class="text-white">@item</div>
+                                                    </li>
+                                                }
+                                                <li class="pricing-benefit">
+                                                    <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                    <div class="text-white">15+ new category</div>
+                                                </li>
+                                            </ul>
+                                            <a href="/" class="pricing-link color-primary" >Choose Plan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div>
+                                    <div class="pricing__body-top">
+                                        <img src="/imgs/Home/pricing-top.svg" alt="photo">
+                                        <img src="/imgs/Home/yearly.svg" alt="photo">
+                                        <span>Lifettime Plan</span>
+                                    </div>
+                                    <div class="pricing__body-price">
+                                        <div>
+                                            <h2 class="price">$3.99</h2>
+                                            <div class="fs-18">/ only</div>
+                                        </div>
+                                        <img src="/imgs/Home/hanging.svg" alt="hanging" class="price-hanging">
+                                    </div>
+                                    <div class="pricing__body-body">
+                                        <div>
+                                            <ul class="pricing__body-content">
+                                                @foreach (string item in weeklyPrice)
+                                                {
+                                                    <li class="pricing-benefit">
+                                                        <img src="/imgs/Home/arrow.svg" alt="arrow">
+                                                        <div class="text-white">@item</div>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <a href="/" class="pricing-link" >Choose Plan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cmt-section">
+                <div class="container">
+                    <h2 class="cmt-header">Check out how much Megabot is loved by our users!</h2>
+                    <div class="row">
+                        @foreach (var user in users)
+                        {
+                            if (user.active) {
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div style="margin: 12% 20px 0;">
+                                        <div class="position-relative">
+                                            <div class="cmt-msg">
+                                                <img src="/imgs/Home/quote-green.svg" alt="quote">
+                                                <p class="light-text m-0">@user.comment</p>
+                                            </div>
+                                            <div class="cmt-msg-active"></div>
+                                        </div>
+                                        <div class="cmt-owner">
+                                            <div class="cmt-circle">
+                                                <div><span style="background: var(--color-primary);" class="circle-inner"></span></div>
+                                                <div><span style="background: var(--color-primary);" class="circle-inner"></span></div>
+                                            </div>
+                                            <div class="cmt-avatar">
+                                                <img src="/imgs/Home/@(user.avatar)" alt="avatar" style="outline: 4px solid var(--color-primary);">
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 style="color: var(--color-primary) !important;" class="text-white fs-18">Marvin McKinney</h5>
+                                                <p class="light-text">Content writer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            } else {
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div>
+                                        <div class="cmt-msg">
+                                            <img src="/imgs/Home/quote.svg" alt="quote">
+                                            <p class="light-text m-0">@user.comment</p>
+                                        </div>
+                                        <div class="cmt-owner">
+                                            <div class="cmt-circle">
+                                                <div><span class="circle-inner"></span></div>
+                                                <div><span class="circle-inner"></span></div>
+                                            </div>
+                                            <div class="cmt-avatar">
+                                                <img src="/imgs/Home/@(user.avatar)" alt="avatar">
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="text-white fs-18">Marvin McKinney</h5>
+                                                <p class="light-text">Content writer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="FAQ-section">
+                <div class="container">
+                    <h2 class="faq__header">Have inquiries? In our FAQ, you'll find all the solutions you need.</h2>
+                    <div class="faq__body">
+                        @for (int i = 0; i < FAQs.Length; i++)
+                        {
+                            <div class="accordion faq-question" id="FAQ@(i)">
+                                <div class="accordion-item faq-item">
+                                    <h2 class="accordion-header">
+                                        <button onclick="clickChangeColor(this)" class="btn faq-collapse-btn d-flex align-items-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ@(i)_" aria-expanded="true" aria-controls="collapseOne">
+                                            <span>@FAQs[i]</span>
+                                            <i class="fa-solid fa-chevron-down fs-6"></i>
+                                        </button>
+                                    </h2>
+                                        <div id="FAQ@(i)_" class="accordion-collapse collapse" data-bs-parent="FAQ@(i)">
+                                        <div class="accordion-body light-text">
+                                            Given that it is generated in real-time from the data and context given, MegaBot's content is indeed distinctive.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <partial name="_Info" />
+        <partial name="_Footer" />
+    </div>
+</section>
+<script>
+    function clickChangeColor(target) {
+        if (window.getComputedStyle(target).color === "rgb(255, 255, 255)") {
+            target.style.color = "var(--color-primary)";
+        } else {
+            target.style.color = "rgb(255, 255, 255)";
+        }
+    }
+</script>

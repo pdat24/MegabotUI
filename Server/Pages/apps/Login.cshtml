@@ -1,0 +1,71 @@
+@page
+@{
+    ViewData["title"] = "Login";
+}
+<link rel="stylesheet" href="/css/Login.css">
+
+<section class="login-section">
+    <img src="/imgs/logo.svg" alt="logo" class="position-absolute logo">
+    <div class="login-wrapper row">
+        <div class="login__left col-lg-7">
+            <img src="/imgs/Login/1.svg" alt="photo" class="foot-img">
+            <img src="/imgs/Login/2.svg" alt="photo" class="light-img">
+            <div>
+                <img src="/imgs/Login/3.svg" alt="photo" class="head-img">
+            </div>
+        </div>
+        <div class="login__right col-lg-5 col-xxl-4">
+            <div class="login__right-wrapper">
+                <h2 class="form-header">Welcome to <span class="color-primary">Megabot !</span></h2>
+                <div class="form-nav light-text">
+                    <div class="to-login-form active-form">Login</div>
+                    <div class="to-signup-form">Signup</div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="form-body">
+                        <label for="email" class="w-100">
+                            <span class="fs-18">Email ID</span>
+                            <div class="login-entry mt-2">
+                                <i class="fa-solid fa-envelope fs-5 light-text"></i>
+                                <span class="entry-span"></span>
+                                <input type="email" name="email" id="email" placeholder="Enter your mail id">
+                            </div>
+                        </label>
+                        <label for="password" class="w-100 mt-3">
+                            <span class="fs-18">Password</span>
+                            <div class="login-entry mt-2">
+                                <i class="fa-solid fa-lock fs-5 light-text"></i>
+                                <span class="entry-span"></span>
+                                <input type="password" name="password" id="password" placeholder="Enter your password">
+                            </div>
+                        </label>
+                        <div class="forget-pass">
+                            <a href="/apps/reset-password">Forget Password?</a>
+                        </div>
+                        <button class="common-btn login-btn">Login</button>
+                    </div>
+                    <div class="text-center mt-1">
+                        <span class="text-white">Don’t have an account ? </span>
+                        <span class="color-primary">Sign up</span>
+                    </div>
+                    <div class="or-option light-text">
+                        <div></div>
+                        <span class="text">or sign in with</span>
+                        <div></div>
+                    </div>
+                    <div class="text-white">
+                        <a href="https://www.google.com" class="other-login mb-3">
+                            <img src="/imgs/Login/google.svg" alt="gg">
+                            <span>Continue with google</span>
+                        </a>
+                        <a href="https://www.apple.com" class="other-login">
+                            <img src="/imgs/Login/apple.svg" alt="apple">
+                            <span>Continue with apple</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/js/Login.js"></script>
